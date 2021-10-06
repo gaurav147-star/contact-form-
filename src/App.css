@@ -1,5 +1,5 @@
-body{
-  background: linear-gradient(90.28deg, #766DFF 0.24%, #88F3FF 99.31%);
+body {
+  background: linear-gradient(90.28deg, #766dff 0.24%, #88f3ff 99.31%);
 }
 
 .f {
@@ -8,6 +8,11 @@ body{
   background: rgba(255, 255, 255, 0.856);
   margin: 170px 0px;
 }
-.form-control{
+.form-control {
   font-size: 20px;
+}
+.btn {
+  border-radius: 50px;
+  background: rgba(255, 0, 0, 0.863) !important;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.445) !important;
 }
