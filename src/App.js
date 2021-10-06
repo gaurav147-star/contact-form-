@@ -1,12 +1,17 @@
+// import Alert from './Alert';
 import ContactForm from './ContactForm';
+import React from 'react'
 
-const App = () => {
+function App() {
+
+
   return (
     <div className='App'>
-      <div className='container'>
-       
-        <ContactForm />
-      </div>
+
+      {/* <Alert/> */}
+      <ContactForm />
+
+
     </div>
   );
 };
