@@ -1,12 +1,14 @@
+import ContactForm from './ContactForm';
 
-import './App.css';
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Gaurav</h1>
+    <div className='App'>
+      <div className='container'>
+       
+        <ContactForm />
+      </div>
     </div>
   );
-}
+};
 
 export default App;
