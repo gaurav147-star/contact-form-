@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import Alert from './Alert';
 import './App.css';
-const ContactForm = () => {
+const ContactForm = (props) => {
 
+   
     const [alert, setAlert] = useState(null);
     const showAlert = (message, type) => {
         setAlert({
@@ -36,7 +37,7 @@ const ContactForm = () => {
             message,
         } = user;
         if (Fname && Lname && email && message) {
-            const res = await fetch("https://practice-9d614-default-rtdb.firebaseio.com/contactform.json", {
+            const res = await fetch(`${props.url}`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
