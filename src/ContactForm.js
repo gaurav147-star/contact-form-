@@ -67,7 +67,7 @@ const ContactForm = (props) => {
         <>
             <Alert alert={alert} />
             <form className="f" method="POST">
-                <div className="form-row m-4">
+                <div className="form-row m-3">
                     <div className="col">
                         <h1 className='text-center'>React Contact Form</h1>
                     </div>
